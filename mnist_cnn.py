@@ -81,7 +81,7 @@ sess = tf.InteractiveSession()
 tf.global_variables_initializer().run()
 
 batch_size = 50
-epoch = 200
+epoch = 20000
 for i in range(epoch):
     batch = mnist.train.next_batch(batch_size)
     if i % 100 == 0:
